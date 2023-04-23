@@ -54,7 +54,7 @@ def authreq(num, method):
     else:
         return False, req.json()['message']
 
-usrNumber = '+94772454186'
+usrNumber = '+94772710940'  #Yeah, What are you gonna do? Call me? 
 count = range(1, 3)
 intervalInS = 60
 
