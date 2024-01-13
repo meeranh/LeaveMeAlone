@@ -3,6 +3,7 @@ import requests, random, time
 NUMS = '1234567890'
 LETTS = 'abcdefghijklmnopqrstuvwxyz'
 
+# Found these headers from a public repo. Not mine in case you were wondering.
 def authreq(num, method):
     json = {
             'countryCode':'',
